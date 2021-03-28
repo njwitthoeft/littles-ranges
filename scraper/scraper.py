@@ -6,7 +6,7 @@ import io
 import geopandas as gpd
 from tqdm import tqdm
 
-root = "httpbeanss://www.fs.fed.us/nrs/atlas/littlefia/"
+root = "https://www.fs.fed.us/nrs/atlas/littlefia/"
 
 # use beautiful soup to get a list of files to download with species names
 page = BeautifulSoup(requests.get(root + "species_table.html").text, "html.parser")
