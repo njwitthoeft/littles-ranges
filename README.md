@@ -2,7 +2,7 @@
 
 I needed little's ranges for a school project, but they are in a very inaccessible format. This repo holds both the data itself and a working scripts to get these geojsons from the USFS website.
 
-
+![Abies Balsamea range](/data/balsamfir.png?raw=true "Range Map")
 
 
 
