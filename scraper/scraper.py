@@ -13,7 +13,7 @@ page = BeautifulSoup(requests.get(root + "species_table.html").text, "html.parse
 rows = page.find("div", id = "cns").table.find_all("tr")[1:]
 
 specieslist = list()
-downloadlist = list()
+
 
 #make a list of downloads to grab
 for row in rows:
